@@ -1,0 +1,33 @@
+apiVersion: xl/v1
+kind: Blueprint
+metadata:
+  projectName: Blueprints Workshop
+  description: |
+    A demonstration of some of the abilities of blueprints.
+  author: XebiaLabs
+  version: 1.0
+  # TODO: Where is the binary to run this?
+  instructions: Please read the generated file "xebialabs/USAGE.md" for further usage instructions.
+spec:
+  parameters:
+  - name: AppName
+    type: Input
+    description: What name do you want to give the project?
+    default: HelloWorld
+  - name: ContainerPort
+    type: Input
+    description: At what port should the application be exposed in the container (1-65535)?
+    default: 80
+  - name: HostPort
+    type: Input
+    description: At what port should the container port be mapped in the host?
+    default: 8181
+  - name: BackendDockerImage
+    type: Input
+    description: What is the Docker Image (repo and path) for the Backend service?
+    default: "xebialabsunsupported/rest-o-rant-api"
+  - name: FrontendDockerImage
+    type: Input
+    description: What is the Docker Image (repo and path) for the Frontend service?
+    default: "xebialabsunsupported/rest-o-rant-web"
+
