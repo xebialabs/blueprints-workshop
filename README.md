@@ -75,7 +75,7 @@ xl-release:
 
 #### Windows
 ```plain
-C:\blueprints-workshop-scratch> xl.exe blueprint -b ..\blueprints-workshop\repository\example-01
+C:\blueprints-workshop-scratch> ..\blueprints-workshop\xl-binary\windows-amd64\xl.exe blueprint -b ..\blueprints-workshop\repository\example-01
 ```
 
 ### 4. Answer the prompts
