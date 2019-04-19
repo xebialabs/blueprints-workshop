@@ -137,6 +137,7 @@ This project consists of 4 examples, each building on the previous and showcasin
 * [Get started with XebiaLabs blueprints](https://docs.xebialabs.com/xl-platform/concept/get-started-with-blueprints.html)
 * [Blueprint YAML format](https://docs.xebialabs.com/xl-platform/concept/blueprint-yaml-format.html)
 * [Tutorial for deploying an application to AWS using a blueprint](https://docs.xebialabs.com/xl-platform/how-to/deploy-to-aws-using-blueprints.html)
+* [Offical Blueprints docs](https://github.com/xebialabs/xl-cli/blob/master/docs/blueprints.md)
 
 ## Labels
 
