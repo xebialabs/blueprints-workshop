@@ -1,7 +1,7 @@
 version: '3'
 services:
   xl-deploy:
-    image: xebialabs/xl-deploy:8.6.1
+    image: xebialabs/xl-jetpack-deploy:8.6.1
     ports:
     - "4516:4516"
     environment:
@@ -9,7 +9,7 @@ services:
     - ACCEPT_EULA=Y
 
   xl-release:
-    image: xebialabs/xl-release:8.6.1
+    image: xebialabs/xl-jetpack-release:8.6.1
     ports:
     - "5516:5516"
     environment:
