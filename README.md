@@ -35,6 +35,19 @@ GO version:              go1.11
 OS/Arch:                 darwin/amd64
 ```
 
+Make sure your `~/.xebialabs/config.yaml` contains the following:
+```yaml
+xl-deploy:
+  authmethod: http
+  password: admin
+  url: http://localhost:4516/
+  username: admin
+xl-release:
+  authmethod: http
+  password: admin
+  url: http://localhost:5516/
+  username: admin
+```
 
 ### 1. Start the XLD/XLR Docker images
 ```plain
