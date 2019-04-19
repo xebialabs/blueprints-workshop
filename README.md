@@ -94,6 +94,8 @@ Create a release from `hello-world on Docker` (or whatever you named your applic
 ### 7. Make the changes
 There are 3 more exercises, each building on the other:
 
+> **Note:** Confine all your changes to `repository/example-01`
+
 #### 7.1 Make the test phase optional
 In this step we will:
 * Make the test phase optional with a `Confirm`
