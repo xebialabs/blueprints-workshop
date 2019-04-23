@@ -209,7 +209,10 @@ Use the documenation below to further enhance your blueprint:
 * [Get started with XebiaLabs blueprints](https://docs.xebialabs.com/xl-platform/concept/get-started-with-blueprints.html)
 * [Blueprint YAML format](https://docs.xebialabs.com/xl-platform/concept/blueprint-yaml-format.html)
 * [Tutorial for deploying an application to AWS using a blueprint](https://docs.xebialabs.com/xl-platform/how-to/deploy-to-aws-using-blueprints.html)
-* [Offical Blueprints docs](https://github.com/xebialabs/xl-cli/blob/master/docs/blueprints.md)
+* [Official Blueprints docs](https://github.com/xebialabs/xl-cli/blob/master/docs/blueprints.md)
+* [Official Blueprints repo](https://github.com/xebialabs/blueprints)
+
+> **Note:** You can access the online Blueprints repository directly by just typing `xl blueprints` and following the prompts
 
 ## Basic structure of a blueprint directory
 
